@@ -3,6 +3,7 @@ layout: article
 title: 3d Math 读书笔记预告
 mathjax: true
 tags: math graphics
+key: 2018-09-24-firstpost.markdown
 ---
 
 这是我第一次写博客。想来也不知道应该写点什么作为我的第一篇博客，索性就做一个读书笔记的预告吧。

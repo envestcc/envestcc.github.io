@@ -2,6 +2,7 @@
 layout: article
 title: 3d Math 概览
 tags: math graphics
+key: 2018-09-25-3dmath-overview.md
 ---
 
 本书共有14章。

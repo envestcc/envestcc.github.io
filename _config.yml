@@ -105,7 +105,7 @@ sources: # bootcdn (default), unpkg
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "custom"
 
   ## Disqus
   disqus:
@@ -114,12 +114,12 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
+    clientID    : 7f3a5767268e0736dd71 # GitHub Application Client ID
+    clientSecret: ea2132ab470a4ceb39a7d5e46d98be963347bd9e # GitHub Application Client Secret
+    repository  : envestcc.github.io # GitHub repo
+    owner       : envestcc # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+      - envestcc@aliyun.com # - your GitHub Id
 
 
 ## => Pageview
