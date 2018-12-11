@@ -32,7 +32,7 @@ breakpad是google推出的一个用于崩溃收集相关的一整套框架，支
 
 我使用的是在linux下交叉编译arm平台的库文件。需要android的ndk相关工具。上面的文档里列出了两种方法，一种是通过直接集成android.mk文件进行集成，另一种相对灵活，使用独立工具链进行编译。我这里采用独立工具链的方式。
 
-### 独立工具链
+#### 独立工具链
 
 我使用的ndk版本r18。
 先安装独立工具链，可以参考文档 https://developer.android.com/ndk/guides/standalone_toolchain?hl=en
@@ -47,7 +47,7 @@ export PATH=/tmp/my-android-toolchain/bin:$PATH
 ```
 在将bin目录添加到path路径下。到这里独立工具链的准备就完成了。
 
-### 编译
+#### 编译
 
 ```sh
 $GOOGLE_BREAKPAD_PATH/configure --host=arm-linux-androideabi \
