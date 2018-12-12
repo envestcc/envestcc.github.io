@@ -118,6 +118,7 @@ make -j4
 
 1. 添加包含目录 $GOOGLE_BREAKPAD_PATH/src
 2. 静态链接生成的libbreakpad_client.a
+3. 注意针对c++ 异常的捕获，需要添加编译参数-fno-exceptions，禁用c++ 异常才行
 
 ```cpp
 #include "client/linux/handler/exception_handler.h"
